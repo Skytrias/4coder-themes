@@ -1,0 +1,50 @@
+name = "solarized-dark";
+
+Back = 0xFF002b36;
+
+Margin = 0x88b58900;
+Margin_Hover = 0xAAb58900;
+Margin_Active = 0xFFb58900;
+List_Item = 0x33dc322f;
+List_Item_Hover = 0x55dc322f;
+List_Item_Active = 0x77dc322f;
+Cursor = 0xAAcb4b16;
+At_Cursor = Back;
+Highlight_Cursor_Line = 0xFF073642;
+Mark = 0xFFcb4b16;
+Highlight = 0xFF6c7100;
+At_Highlight = Back;
+Default = 0xFF839496;
+Comment = 0xFF586e75;
+Keyword = 0xFFdc322f;
+Str_Constant = 0xFF2aa198;
+Char_Constant = Str_Constant;
+Int_Constant = Str_Constant;
+Float_Constant = Str_Constant;
+Bool_Constant = 0xFFdc322f;
+Include = Str_Constant;
+Preproc = 0xFFFFFFFF;
+Special_Character = 0xFFFF0000;
+Ghost_Character = 0xFF4E5E46;
+
+Paste = 0xFFDDEE00;
+Undo = 0xFF00DDEE;
+
+Highlight_Junk = 0xff859900;
+Highlight_White = 0xff859900;
+
+Bar = 0xFF073642;
+Bar_Active = 0xFF586e75;
+Base = 0xFFcb4b16;
+// search bar?
+Pop1 = 0xFFdc322f;
+Pop2 = 0xFFdc322f;
+
+Back_Cycle_1 = 0x08A00000;
+Back_Cycle_2 = 0x0800A000;
+Back_Cycle_3 = 0x080000A0;
+Back_Cycle_4 = 0x08A0A000;
+Text_Cycle_1 = 0xFFF01010;
+Text_Cycle_2 = 0xFF20D020;
+Text_Cycle_3 = 0xFF0080E0;
+Text_Cycle_4 = 0xFFD0D000;

@@ -1,0 +1,87 @@
+name = "nord";
+
+// used nord night
+DARK_GRAY = 0xFF2e3440; // nord0
+GRAY = 0xFF3b4252; // nord1
+LIGHT_GRAY = 0xFF4C566A; // nord3
+// used snow storm
+DARK_WHITE = 0xFFd8dee9; // nord4
+// used frost
+GREEN_BLUE = 0xFF8fbcbb; // nord7 greener than 8
+BRIGHT_BLUE = 0xFF88c0d0; // nord8
+BLUE = 0xFF81a1c1; // nord9
+DARK_BLUE = 0xFF5e81ac; //nord10
+// aurora
+RED = 0xFFbf616a; // nord11
+ORANGE = 0xFFd08770; // nord12
+YELLOW = 0xFFebcb8b; // nord13
+GREEN = 0xFFa3be8c; // nord14 
+PURPLE = 0xFFb48ead; // nord15
+
+//background all
+Back = DARK_GRAY;
+
+// side bars that seperate windows, each different state
+Margin = 0xFF3b4252; // nord1
+Margin_Hover = 0xFF3b4252; // nord1
+Margin_Active = 0xFF434c5e; //nord2
+
+// listing i.e. strg + o
+List_Item = 0x334c566a; // nord2
+List_Item_Hover = 0x554c566a; // nord2
+List_Item_Active = 0x774c566a; // nord2
+
+// cursor background
+Cursor = 0xAA81a1c1; // BLUE with lower alpha
+At_Cursor = Back;
+Highlight_Cursor_Line = GRAY;
+
+// mark
+Mark = GREEN_BLUE;
+Highlight = GREEN_BLUE; // prolly hover
+Default = DARK_WHITE;
+At_Highlight = DARK_GRAY;
+
+// code comment
+Comment = LIGHT_GRAY;
+
+// any keyword specified in lang file
+Keyword = BRIGHT_BLUE;
+
+// values
+Bool_Constant = BRIGHT_BLUE;
+Str_Constant = GREEN;
+Char_Constant = GREEN;
+Include = GREEN;
+Int_Constant = PURPLE;
+Float_Constant = PURPLE;
+
+// RESEARCH
+Preproc = 0xFFFFFFFF;
+Special_Character = 0xFFFF0000;
+Ghost_Character = 0xFF4E5E46;
+
+// OLD
+Paste = RED;
+Undo = RED;
+
+Highlight_Junk = 0xff859900;
+Highlight_White = 0xff859900;
+
+// title
+Bar = 0xFF434c5e; // nord2
+Bar_Active = RED; // RESEARCH
+Base = PURPLE; // string in title 
+// search bar?
+Pop1 = RED;
+Pop2 = RED;
+
+// DISABLED
+Back_Cycle_1 = 0x00A00000;
+Back_Cycle_2 = 0x0000A000;
+Back_Cycle_3 = 0x000000A0;
+Back_Cycle_4 = 0x00A0A000;
+Text_Cycle_1 = 0x00F01010;
+Text_Cycle_2 = 0x0020D020;
+Text_Cycle_3 = 0x000080E0;
+Text_Cycle_4 = 0x00D0D000;
